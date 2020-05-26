@@ -29,6 +29,8 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(mContxt,PhotoViewActivity.class);
+                intent.putExtra("imgUrl","https://pbs.twimg.com/profile_images/1263783479621251073/MmOMbz_W_400x400.jpg");
+                startActivity(intent);
             }
         });
 
